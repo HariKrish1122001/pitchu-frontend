@@ -1,0 +1,125 @@
+.log-in-btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+   border-radius: 50px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-weight: bold;
+}
+.register-btn{
+    width: 150px;
+    height: 50px;
+    border: 1px solid var(--white-color);
+   border-radius: 50px;
+    background-color: transparent;
+    color: var(--white-color);
+    font-weight: bold;
+}
+.variable-support {
+    border: 0px solid red;
+    padding: 20px;
+    background-image: url("../images/Asset-12.png");
+    background-repeat: no-repeat;
+}
+
+.variable-right-support {
+    background-image: url("../images/Container-2.png");
+
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.variable-right-support img {
+    width: 90%;
+}
+
+/* <<<<<<<<<<<<<<<<variable-login>>>>>>>>>>>>>>>> */
+.variable-login{
+    border: 0px solid red;
+}
+
+.left-side-login{
+    border:0px solid red;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left-side-login h2{
+   color:#3AB397;
+}
+
+.Forgot-Password{
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.position-relative-1 {
+    position: relative;
+}
+
+/* .input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999; 
+    pointer-events: none; 
+} */
+
+/* .form-control {
+    padding-left: 40px; 
+} */
+
+.position-relative-2 {
+    position: relative;
+}
+
+/* .input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    pointer-events: none;
+} */
+
+.position-relative-3 {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px; /* Adjust this value based on your design */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999; /* Change icon color if needed */
+    pointer-events: none; /* Prevents clicks on the icon */
+}
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+}
+.variable-right-side{
+    border:0px solid red;
+    padding: 20px;
+    background: #3AB397;
+    color: var(--white-color);
+    display: inline-grid;
+}
+
+
+.variable-right-side-inside{
+    text-align: center;
+}
+.react-tel-input .form-control{
+    width: 100% !important;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>> */
