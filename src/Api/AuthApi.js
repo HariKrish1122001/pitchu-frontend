@@ -6,7 +6,7 @@ export const rigerster = async (datas) => {
       datas,
     };
     let params = {
-      url: `https://pitchu-backend.vercel.app/client/register`,
+      url: `/client/register`,
       method: "POST",
       data: payload,
     };
