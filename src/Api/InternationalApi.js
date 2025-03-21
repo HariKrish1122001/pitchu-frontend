@@ -6,7 +6,7 @@ export const InternationalPlanUserAdd = async (data) => {
     try {
   
       let params = {
-        url: "/client/International/InternationalPlanUserAdd",
+        url: "https://pitchu-backend.vercel.app/client/International/InternationalPlanUserAdd",
         method: "post",
         data: { enData: data }
       }
@@ -30,7 +30,7 @@ export const InternationalPlanUserAdd = async (data) => {
     try {
   
       let params = {
-        url: "/client/International/DollerPrice",
+        url: "https://pitchu-backend.vercel.app/client/International/DollerPrice",
         method: "get",
       }
   
@@ -53,7 +53,7 @@ export const InternationalPlanUserAdd = async (data) => {
   export const UserTransferInternational = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/TransferHistory/getInternationalTransferHistory",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/TransferHistory/getInternationalTransferHistory",
         method: "post",
         data: { enData: data }
       }

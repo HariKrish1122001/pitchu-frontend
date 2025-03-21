@@ -4,7 +4,7 @@ import { makeApiRequest } from "../axiosService/axiosService";
 export const findUserdata = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/findUserdata",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/findUserdata",
         method: "post",
         data: { enData: data },
       };
@@ -28,7 +28,7 @@ export const findUserdata = async (data) => {
   export const findUserInfo = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/findUserInfo",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/findUserInfo",
         method: "post",
         data: { enData: data },
       };
@@ -52,7 +52,7 @@ export const findUserdata = async (data) => {
   export const DomesticGetPlans = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/DomesticGetPlans",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/DomesticGetPlans",
         method: "post",
         // data: { enData: data },
       };
@@ -75,7 +75,7 @@ export const findUserdata = async (data) => {
   export const internationalGetPlans = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/internationalGetPlans",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/internationalGetPlans",
         method: "post",
         // data: { enData: data },
       };
@@ -98,7 +98,7 @@ export const findUserdata = async (data) => {
   export const sendMessage = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/sendMessage",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/sendMessage",
         method: "post",
         data: { enData: data },
       };
@@ -121,7 +121,7 @@ export const findUserdata = async (data) => {
   export const findUserdataInternational = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/findUserdataInternational",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/findUserdataInternational",
         method: "post",
         data: { enData: data },
       };
@@ -144,7 +144,7 @@ export const findUserdata = async (data) => {
   export const sendNotification = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/sendNotification",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/sendNotification",
         method: "post",
         data: { enData: data },
       };
@@ -166,7 +166,7 @@ export const findUserdata = async (data) => {
   export const sendNotificationInternational = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/NotificationInternational",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/NotificationInternational",
         method: "post",
         data: { enData: data },
       };
@@ -187,7 +187,7 @@ export const findUserdata = async (data) => {
   export const getNotificationList = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/getNotificationList",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/getNotificationList",
         method: "post",
         data: { enData: data },
       };
@@ -210,7 +210,7 @@ export const findUserdata = async (data) => {
   export const getNotificationCheck = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/getNotificationCheck",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/getNotificationCheck",
         method: "post",
         data: { enData: data },
       };
@@ -234,7 +234,7 @@ export const findUserdata = async (data) => {
   export const rejectRequiestReferel = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/rejectRequiest",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/rejectRequiest",
         method: "post",
         data: { enData: data },
       };
@@ -257,7 +257,7 @@ export const findUserdata = async (data) => {
   export const NotificationAccRequiest = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/NotificationAccRequiest",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/NotificationAccRequiest",
         method: "post",
         data: { enData: data },
       };
@@ -279,7 +279,7 @@ export const findUserdata = async (data) => {
   export const NotificationAccRequiestDomestic = async (data) => {
     try {
       let params = {
-        url: "/client/Dashboard/NotificationAccRequiestDomestic",
+        url: "https://pitchu-backend.vercel.app/client/Dashboard/NotificationAccRequiestDomestic",
         method: "post",
         data: { enData: data },
       };

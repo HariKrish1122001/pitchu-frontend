@@ -6,7 +6,7 @@ export const rigerster = async (datas) => {
       datas,
     };
     let params = {
-      url: `/client/register`,
+      url: `https://pitchu-backend.vercel.app/client/register`,
       method: "POST",
       data: payload,
     };
@@ -28,7 +28,7 @@ export const rigerster = async (datas) => {
 export const loginRequest = async (data) => {
   try {
     let params = {
-      url: "/client/Login",
+      url: "https://pitchu-backend.vercel.app/client/Login",
       method: "POST",
       data: { enData: data },
     };
@@ -51,7 +51,7 @@ export const loginRequest = async (data) => {
 export const getisClientcheck = async (data) => {
   try {
     let params = {
-      url: "/client/getisClientcheck",
+      url: "https://pitchu-backend.vercel.app/client/getisClientcheck",
       method: "post",
       data: { enData: data },
     };
@@ -74,7 +74,7 @@ export const getisClientcheck = async (data) => {
 export const getisClientId = async (data) => {
   try {
     let params = {
-      url: "/client/getisClientId",
+      url: "https://pitchu-backend.vercel.app/client/getisClientId",
       method: "post",
       data: { enData: data },
     };
@@ -97,7 +97,7 @@ export const getisClientId = async (data) => {
 export const forgetpasswordSendRequest = async (data) => {
   try {
     let params = {
-      url: "/client/forgetpasswordSendRequest",
+      url: "https://pitchu-backend.vercel.app/client/forgetpasswordSendRequest",
       method: "post",
       data: { enData: data },
     };
@@ -119,7 +119,7 @@ export const forgetpasswordSendRequest = async (data) => {
 export const getisClient = async (data) => {
   try {
     let params = {
-      url: "/client/getisClient",
+      url: "https://pitchu-backend.vercel.app/client/getisClient",
       method: "post",
       data: { enData: data },
     };
@@ -141,7 +141,7 @@ export const getisClient = async (data) => {
 export const changePassword = async (data) => {
   try {
     let params = {
-      url: "/client/changePassword",
+      url: "https://pitchu-backend.vercel.app/client/changePassword",
       method: "post",
       data: { enData: data },
     };
@@ -163,7 +163,7 @@ export const changePassword = async (data) => {
 export const userInfo = async (data) => {
   try {
     let params = {
-      url: "/client/userInfo",
+      url: "https://pitchu-backend.vercel.app/client/userInfo",
       method: "post",
       data: { enData: data },
     };

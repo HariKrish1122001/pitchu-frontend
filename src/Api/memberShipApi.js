@@ -5,7 +5,7 @@ export const addMemberShip = async (data) => {
     try {
   
       let params = {
-        url: "/client/addMemberShip",
+        url: "https://pitchu-backend.vercel.app/client/addMemberShip",
         method: "post",
         data: { enData: data }
       }
@@ -28,7 +28,7 @@ export const addMemberShip = async (data) => {
 export const checkUserInfo = async (data) => {
   try {
     let params = {
-      url: "/client/checkUserInfo",
+      url: "https://pitchu-backend.vercel.app/client/checkUserInfo",
       method: "post",
       data: { enData: data }
     }
@@ -52,7 +52,7 @@ export const checkUserInfo = async (data) => {
 export const getUserMembership =async (data) =>{
   try {
     let params = {
-      url: "/client/getUserMemberShip",
+      url: "https://pitchu-backend.vercel.app/client/getUserMemberShip",
       method: "post",
       data: { enData: data }
     }
