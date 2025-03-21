@@ -28,7 +28,7 @@ export const rigerster = async (datas) => {
 export const loginRequest = async (data) => {
   try {
     let params = {
-      url: "https://pitchu-backend.vercel.app/client/Login",
+      url: "/client/Login",
       method: "POST",
       data: { enData: data },
     };
@@ -51,7 +51,7 @@ export const loginRequest = async (data) => {
 export const getisClientcheck = async (data) => {
   try {
     let params = {
-      url: "https://pitchu-backend.vercel.app/client/getisClientcheck",
+      url: "/client/getisClientcheck",
       method: "post",
       data: { enData: data },
     };
@@ -74,7 +74,7 @@ export const getisClientcheck = async (data) => {
 export const getisClientId = async (data) => {
   try {
     let params = {
-      url: "https://pitchu-backend.vercel.app/client/getisClientId",
+      url: "/client/getisClientId",
       method: "post",
       data: { enData: data },
     };
@@ -97,7 +97,7 @@ export const getisClientId = async (data) => {
 export const forgetpasswordSendRequest = async (data) => {
   try {
     let params = {
-      url: "https://pitchu-backend.vercel.app/client/forgetpasswordSendRequest",
+      url: "/client/forgetpasswordSendRequest",
       method: "post",
       data: { enData: data },
     };
@@ -119,7 +119,7 @@ export const forgetpasswordSendRequest = async (data) => {
 export const getisClient = async (data) => {
   try {
     let params = {
-      url: "https://pitchu-backend.vercel.app/client/getisClient",
+      url: "/client/getisClient",
       method: "post",
       data: { enData: data },
     };
@@ -141,7 +141,7 @@ export const getisClient = async (data) => {
 export const changePassword = async (data) => {
   try {
     let params = {
-      url: "https://pitchu-backend.vercel.app/client/changePassword",
+      url: "/client/changePassword",
       method: "post",
       data: { enData: data },
     };
@@ -163,7 +163,7 @@ export const changePassword = async (data) => {
 export const userInfo = async (data) => {
   try {
     let params = {
-      url: "https://pitchu-backend.vercel.app/client/userInfo",
+      url: "/client/userInfo",
       method: "post",
       data: { enData: data },
     };

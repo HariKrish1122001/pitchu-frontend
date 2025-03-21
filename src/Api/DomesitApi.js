@@ -6,7 +6,7 @@ export const DomesticsPlanUserAdd = async (data) => {
     try {
   
       let params = {
-        url: "https://pitchu-backend.vercel.app/client/Domestic/DomesticsPlanUserAdd",
+        url: "/client/Domestic/DomesticsPlanUserAdd",
         method: "post",
         data: { enData: data }
       }
@@ -31,7 +31,7 @@ export const DomesticsPlanUserAdd = async (data) => {
   export const UserTransferDomestic = async (data) => {
     try {
       let params = {
-        url: "https://pitchu-backend.vercel.app/client/Dashboard/TransferHistory/getDomesticTransferHistory",
+        url: "/client/Dashboard/TransferHistory/getDomesticTransferHistory",
         method: "post",
         data: { enData: data }
       }
