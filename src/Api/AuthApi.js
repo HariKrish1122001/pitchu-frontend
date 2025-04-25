@@ -24,7 +24,6 @@ export const rigerster = async (datas) => {
     };
   }
 };
-
 export const loginRequest = async (data) => {
   try {
     let params = {
